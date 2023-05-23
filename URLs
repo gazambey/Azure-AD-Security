@@ -1,4 +1,15 @@
 Creation d'un environnement de Test M365 E3
 ****https://www.microsoft.com/en-us/microsoft-365/try
 
-Creation d'un environnement M365 Developper: https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program
+Creation d'un environnement M365 Developper
+****** https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program
+
+
+Configurations Minmales (Ressources Web)
+
+Conf04: Bloquer les protocoles d'authentification de base
+****https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy
+****https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity
+
+
+
