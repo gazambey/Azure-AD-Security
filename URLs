@@ -8,6 +8,11 @@ Creation d'un environnement M365 Developper
 Configurations Minmales (Ressources Web)
 
 
+conf02: Exiger le Multi facteur pour les roles D'administration
+***** https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity
+
+
+
 Conf03:Exiger le Multi facteur pour tous les utilisateurs avec des methodes phishing resistant
 **** https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods
 **** https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal
@@ -33,6 +38,26 @@ conf 07: Bloquer le consentement des utilisateurs pour les applications non appr
 
 conf 09: Ne pas expirer les mots de passe
 *** https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations?view=o365-worldwide#password-expiration-requirements-for-users
+*** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy?view=o365-worldwide#set-password-expiration-policy
+
+Conf 10: Limiter la duree de la session
+**** https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#policy-1-sign-in-frequency-control
+
+
+conf 11: desactiver les sessions de navigateur persistantes
+**** https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#policy-2-persistent-browser-session
+
+
+Conf 13:Activer l'access limite dans le temps pour les comptes a haut privilege 
+***** https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user
+
+Conf 14: Tous les comptes a haut privilege doivent passer par une approbation
+***** https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-approval-workflow
+
+
+
+
+
 
 
 
