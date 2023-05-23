@@ -7,9 +7,36 @@ Creation d'un environnement M365 Developper
 
 Configurations Minmales (Ressources Web)
 
+
+Conf03:Exiger le Multi facteur pour tous les utilisateurs avec des methodes phishing resistant
+**** https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods
+**** https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal
+**** https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-additional-context#enable-additional-context-in-the-portal
+
+
 Conf04: Bloquer les protocoles d'authentification de base
 ****https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy
 ****https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity
+
+Conf 05: Bloquer les connexions a haut risque
+***** https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
+***** https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#sign-in-risk
+***** https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-simulate-risk
+
+Conf 06: Bloquer les utilisateurs a haut risque
+**** https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk-user
+**** https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-linked-detections
+**** https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-simulate-risk
+**** https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-user-experience
+
+conf 07: Bloquer le consentement des utilisateurs pour les applications non approuvees
+
+conf 09: Ne pas expirer les mots de passe
+*** https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations?view=o365-worldwide#password-expiration-requirements-for-users
+
+
+
+
 
 
 
